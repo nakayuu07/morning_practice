@@ -73,3 +73,21 @@ for (let i = 0; i < 10; i++) {
 
   console.log(i)
 }
+
+for (let i = 0; i < 10; i++) {
+  if (i % 2 === 0) {
+    continue
+  }
+
+  console.log(i)
+}
+
+num = 0
+
+while (num < 3) {
+  console.log(num)
+  num++
+}
+
+Number.MAX_VALUE
+Number
